@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*body{
+
+}*/
+body{	
+	margin: 0;
+	background: #c5c5c5;
+	background-image: url(kl.jpg);
+	min-height: 700px;
+	width: 100%;
+	height: 100%;
+	  /* Center and scale the image nicely */
+  	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+
+nav ul{
+	float: left;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #cc99ff;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 22px 14px;
+
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #115173;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+	display: block;
+}
+
+
+ 
+nav ul li ul li{ 
+	width: 150px;
+	border-radius: 0px;
+}
+
+nav ul li ul li a{
+	padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+	background-color: #333
+}
+
+.input{
+	float: right;
+		padding-top: 20px;
+		margin-right: 5px;
+}
+
+.college-picture{
+	display: block;
+	
+}
+
+
+/**
+nav{
+	background-color: #cc99ff;
+	width: 100%;
+	height: 60px;
+}
+
+nav ul{
+	float: left;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+
+
+nav ul li ul{
+	display: block;
+	position: absolute;
+	background-color: #cc99ff;	
+}
+nav ul li ul li a{ 
+
+	
+}
+
+
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+padding: 0px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover{
+color: #000;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+
+
+/*header{
+	background: #cc99ff;
+}*/
+
+/*header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.nav-container{
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*.dropdown-item{
+	margin: 0px;
+	padding: 10px 0px;
+}*/
+
+/*
+.nav-item{
+	display: block;
+	margin-right: 45px;
+	margin-left: 5px;
+	padding-top: 20px;
+	position: relative;
+}
+.input{
+	float: right;
+		padding-top: 20px;
+		margin-right: 5px;
+}
+
+*/
